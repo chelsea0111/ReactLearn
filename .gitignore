@@ -1,0 +1,53 @@
+# IDE/Editor specific files
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+.vs/
+
+# Node.js & React
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+package-lock.json
+
+# Build & Distribution
+dist/
+build/
+coverage/
+.cache/
+*.min.js
+
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs & Debug
+logs/
+*.log
+debug/
+.debug/
+
+# Testing
+coverage/
+.nyc_output/
+junit.xml
+
+# Temp files
+*.swp
+*.swo
+*~
+.temp/
+.tmp/
